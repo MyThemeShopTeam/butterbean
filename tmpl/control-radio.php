@@ -11,10 +11,8 @@
 	<# _.each( data.choices, function( label, choice ) { #>
 
 		<li>
-			<label>
-				<input type="radio" value="{{ choice }}" name="{{ data.field_name }}" <# if ( data.value === choice ) { #> checked="checked" <# } #> />
-				{{ label }}
-			</label>
+			<input type="radio" id="{{ data.field_name }}_{{ choice }}" value="{{ choice }}" name="{{ data.field_name }}" <# if ( data.value === choice ) { #> checked="checked" <# } #> />
+			<label for="{{ data.field_name }}_{{ choice }}">{{ label }}</label>
 		</li>
 
 	<# } ) #>
