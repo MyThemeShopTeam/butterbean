@@ -3,7 +3,7 @@
 .butterbean-ui {
 	> .hndle {
 		padding: 10px !important;
-		border-bottom: 1px solid #eee;
+		border-bottom: 1px solid #e2e4e7;
 	}
 	.inside {
 		margin: 0 !important;
@@ -15,16 +15,16 @@
 .butterbean-manager-default {
 	overflow: hidden;
 	background: #fff;
-	background: linear-gradient(90deg, #fafafa 0%, #fafafa 180px, #fff 180px, #fff 100%);
+	background: linear-gradient(90deg, #f3f4f5 0%, #f3f4f5 180px, #fff 180px, #fff 100%);
 }
 
 #side-sortables .butterbean-manager-default {
-	background: linear-gradient(90deg, #fafafa 0%, #fafafa 48px, #fff 48px, #fff 100%);
+	background: linear-gradient(90deg, #f3f4f5 0%, #f3f4f5 48px, #fff 48px, #fff 100%);
 }
 
 @media only screen and (max-width: 782px), (max-width: 980px) and (min-width: 851px) {
 	.butterbean-manager-default {
-		background: linear-gradient(90deg, #fafafa 0%, #fafafa 48px, #fff 48px, #fff 100%);
+		background: linear-gradient(90deg, #f3f4f5 0%, #f3f4f5 48px, #fff 48px, #fff 100%);
 	}
 }
 
@@ -38,8 +38,8 @@
 		line-height: 1em;
 		margin: 0 0 -1px 0;
 		padding: 0;
-		background-color: #fafafa;
-		border-right: 1px solid #eee;
+		background-color: #f3f4f5;
+		border-right: 1px solid #e2e4e7;
 		box-sizing: border-box;
 		li {
 			display: block;
@@ -54,7 +54,7 @@
 				padding: 10px;
 				line-height: 20px !important;
 				text-decoration: none;
-				border-bottom: 1px solid #eee;
+				border-bottom: 1px solid #e2e4e7;
 				box-shadow: none;
 			}
 		}
@@ -74,7 +74,7 @@
 		float: left;
 		width: calc( 100% - 180px );
 		margin-left: -1px;
-		border-left: 1px solid #eee;
+		border-left: 1px solid #e2e4e7;
 	}
 	.butterbean-section {
 		padding: 20px 30px;
@@ -166,7 +166,7 @@
 			li {
 				display: table-cell;
 				text-align: center;
-				border-right: 1px solid #eee;
+				border-right: 1px solid #e2e4e7;
 				&:last-of-type {
 					border-right: none;
 				}
@@ -230,7 +230,7 @@
 
 /* == Select Control */
 .butterbean-manager-default select {
-	background-color: #f5f5f5;
+	background-color: #f3f4f5;
 	color: #333;
 	border: 1px solid rgba(0, 0, 0, 0.05);
 	font-size: 13px;
@@ -368,10 +368,10 @@
 /* RTL */
 body.rtl {
 	.butterbean-manager-default {
-		background: linear-gradient(-90deg, #fafafa 0, #fafafa 180px, #fff 180px, #fff 100%);
+		background: linear-gradient(-90deg, #f3f4f5 0, #f3f4f5 180px, #fff 180px, #fff 100%);
 		.butterbean-nav {
 			float: right;
-			border-left: 1px solid #eee;
+			border-left: 1px solid #e2e4e7;
 			border-right: 0;
 		}
 	}
@@ -390,14 +390,14 @@ body.rtl {
 		float: right;
 		margin-right: -1px;
 		margin-left: 0;
-		border-right: 1px solid #eee;
+		border-right: 1px solid #e2e4e7;
 		border-left: 0;
 	}
 }
 
 @media only screen and (max-width: 782px), (max-width: 980px) and (min-width: 851px) {
 	body.rtl .butterbean-manager-default {
-		background: linear-gradient(-90deg, #fafafa 0, #fafafa 48px, #fff 48px, #fff 100%);
+		background: linear-gradient(-90deg, #f3f4f5 0, #f3f4f5 48px, #fff 48px, #fff 100%);
 		.butterbean-nav .label {
 			right: -1000em;
 			left: auto;
